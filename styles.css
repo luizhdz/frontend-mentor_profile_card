@@ -5,12 +5,36 @@
 
   --dark_gray: hsl(0, 0%, 59%);
 }
-
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
 body{
   font-family: 'Kumbh Sans', sans-serif;
+  background-color: var(--dark_cyan); 
+  background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg') ;
+  background-repeat: no-repeat;
+  background-size: 50%;  
+  background-position: top -20em left -12em, bottom -20em right -12em;  
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
 }
 
-h1 .main-text{
+
+main.card{  
+  text-align: center;
+  justify-content: center;
+  width: 320px;
+  background: whitesmoke url('./images/bg-pattern-card.svg') repeat-x ;
+  border-radius: 12px;
+  padding: 5px;
+  padding-top: 80px;
+}
+
+h1.main-text {
   font-size: 18px;
   color: var(--very_dark_desaturated_blue)
 }
@@ -23,16 +47,30 @@ h1 span.age{
 h1 span.description{
   font-weight: 400;
   color: var(--dark_gray);
-  font-size: 13px;
+  font-size: 10px;
   letter-spacing: 2px;
 }
 
-h2 .city{
-  color: var(--dark_gray) ;
+h2.city{
+  color: var(--dark_grayish_blue);
+  font-size: 15px;
+  font-weight: 400;
 }
 
-image .avatar{
-  border: 10px solid whitesmoke ;
+img.avatar{
+  border: 6px solid whitesmoke ;
   border-radius: 50%;
+}
 
+.stats{
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid rgb(233, 233, 233) ;
+  padding: 10px 0;
+  margin-top: 25px;
+}
+
+.stats h1 span.description{
+  margin-top: 5px;
+  display: block;
 }
