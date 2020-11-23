@@ -1,0 +1,50 @@
+@media screen and (max-width: 1440px) {
+    body{
+     
+      background-size: 59%;
+      background-position: top -20em left -13em, bottom -22em right -13em
+    }
+  } 
+  
+  @media screen and (max-width: 812px) and (orientation: landscape) {
+    body{    
+      
+      background-size: 45%;
+      background-position: top -10em left -5em , bottom -10em right -5em;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    body{  
+      background-size: 100%;
+      background-position: top -12em left -25em , bottom -12em right -25em;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    body{  
+      background-size: 100%;
+      background-position: top -12em left -25em , bottom -12em right -25em;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    body{  
+      background-size: 100%;
+      background-position: top -18em left -18em , bottom -18em right -18em;
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    body{  
+      background-size: 100%;
+      background-position: top -10em left -13em , bottom -10em right -13em;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    body{  
+      background-size: 120%;
+      background-position: top -10em left -15em , bottom -10em right -15em;
+    }
+  }
