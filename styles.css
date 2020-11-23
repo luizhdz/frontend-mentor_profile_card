@@ -1,0 +1,38 @@
+:root{
+  --dark_cyan: hsl(185, 75%, 39%);
+  --very_dark_desaturated_blue: hsl(229, 23%, 23%);
+  --dark_grayish_blue: hsl(227, 10%, 46%);
+
+  --dark_gray: hsl(0, 0%, 59%);
+}
+
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 .main-text{
+  font-size: 18px;
+  color: var(--very_dark_desaturated_blue)
+}
+
+h1 span.age{
+  font-weight: 400;
+  color: var(--dark_grayish_blue);
+}
+
+h1 span.description{
+  font-weight: 400;
+  color: var(--dark_gray);
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+h2 .city{
+  color: var(--dark_gray) ;
+}
+
+image .avatar{
+  border: 10px solid whitesmoke ;
+  border-radius: 50%;
+  
+}
